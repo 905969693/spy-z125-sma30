@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
+
+# Price caches and generated outputs stay local
+cache/
+cache_recent/
+out/
+*.csv
+!tests/fixtures/**
+!src/spy_z125_sma30/fixtures/**
+*.png
+*.pdf
